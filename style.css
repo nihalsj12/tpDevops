@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif ;
+    src: url();
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url(R.png);
+    background-size: cover;
+   
+}
+
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+input[type="button"]{
+    background-color: #0E0;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+
+form{
+    
+    margin-bottom: 100px;
+    width: 500px;
+    background-color: rgb(122, 238, 219);
+    padding: 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box ;
+    border-radius: 6px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: #0E0;
+    font-weight: bold;
+    cursor: pointer;
+}
